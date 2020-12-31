@@ -12,7 +12,7 @@
 .skills-diagram dt {
   display: inline-block;
   vertical-align: top;
-  
+  cursor: pointer;
   border-style: solid;
   border-width: 1px;
   border-radius: 50%;
