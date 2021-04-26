@@ -22,6 +22,10 @@
     <!-- Main Stylesheet File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/skill.css">
+
+    <!-- Animated.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
 
 <body>
@@ -29,7 +33,7 @@
     <!--==========================
   Header
   ============================-->
-    <header id="header">
+    <header class="animate__animated animate__backInLeft" id="header">
 
         <div class="container">
 
@@ -59,8 +63,8 @@
     <section id="hero">
         <div id="particles-js">
             <div class="hero-container">
-                <h1>Hola y bienvenido a mi portafolio web</h1>
-                <h2>
+                <h1 class="animate__animated animate__bounce">Hola y bienvenido a mi portafolio web</h1>
+                <h2 class="animate__animated animate__bounce">
                     Como puedes ver soy <strong>Angel</strong> y espero que te guste mi portafolio.
                 </h2>
             </div>
@@ -89,7 +93,7 @@
                             siempre trato de dar lo mejor de mi.
                         </p>
 
-                        <a href="Angel-Paredes-Torres-CV.pdf" class="btn btn-success">
+                        <a href="Angel Paredes Torres.pdf" class="btn btn-success">
                             <img src="assets/img/pdf.png" alt="Download pdf" width="20px">  DESCARGAR CURRICULUM
                         </a>
 
@@ -136,7 +140,7 @@
                             <div class="col-lg-12">
                                 <div class="tools_expert">
                                     <dl class="skills-diagram">
-                                        <dt class="skill-7">Linux</dt>
+                                        <dt class="animate-ping skill-7">Linux</dt>
                                         <dd>6</dd>
                                         <dt class="skill-7">Windows</dt>
                                         <dd>6</dd>
@@ -445,6 +449,36 @@
                         </a>
                     </div> 
 
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-js">
+                        <a href="https://chelitodelgado.github.io/pizza-menu/">
+                            <img src="assets/img/portfolio/pizza/02.png" width="110%" alt="">
+                            <div class="details">
+                                <h4>Pizza</h4>
+                                <span>Html, Tailwindcss, js</span>
+                            </div>
+                        </a>
+                    </div> 
+
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-php">
+                        <a href="https://github.com/chelitodelgado/rocket_system_v1">
+                            <img src="assets/img/portfolio/RoketS/01.png" width="110%" alt="">
+                            <div class="details">
+                                <h4>Sistema de reportes</h4>
+                                <span>Html, Bootstraps, jquery, Laravel 8</span>
+                            </div>
+                        </a>
+                    </div> 
+
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-php">
+                        <a href="#">
+                            <img src="assets/img/portfolio/rocketshop/03.png" width="110%" alt="">
+                            <div class="details">
+                                <h4>E-commerce</h4>
+                                <span>Html, Bootstraps, jquery, Laravel 6</span>
+                            </div>
+                        </a>
+                    </div> 
+
                 </div>
 
             </div>
@@ -472,7 +506,7 @@
                         <div class="info">
                             <div>
                                 <i class="fa fa-map-marker"></i>
-                                <p>Tetelpa, Zacatepec<br>Morelos, México</p>
+                                <p>Guadalajara,<br>Jalisco, México</p>
                             </div>
 
                             <div>
@@ -547,8 +581,6 @@
 
     <!-- Stats.js -->
     <script src="assets/lib/particles/stats.js"></script>
-
-
 
 </body>
 
